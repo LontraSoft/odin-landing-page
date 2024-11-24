@@ -1,0 +1,101 @@
+body {
+    --max-width-percentage: calc(1980 - 100vw); 
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 16px 7% 0 7%;
+    height: 60%;
+}
+
+.topline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo a{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-nav ul{
+    display: flex;
+    gap: 10px;
+}
+
+.header-nav ul li a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content {
+    margin-top: 70px;
+    padding: 0 0 20px 0;
+    display: flex;
+}
+
+.header-content-left {
+    min-width: 30%;
+    flex: 1 0 0;
+}
+
+.header-content-spacer {
+    flex: 0 1 auto;
+    width: 10%;
+}
+
+.header-content-right {
+    min-width: 30%;
+    max-height: 100%;
+    box-sizing: border-box;
+    flex: 1 0 0;
+}
+
+.header-content-right img {
+    object-fit: contain;
+    max-height: 100%;
+    max-width: 100%;
+    width:auto;
+}
+
+
+.tagline {
+    font-size: 3vw;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.header-content-left p {
+    font-size: 1.25vw;
+    color: #E5E7EB;
+    margin-top: 0.2em;
+}
+
+#try-button {
+    width: 10em;
+    padding: 0.5em 2em;
+    border: 0;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-size: 1.25vw;
+    font-weight: bold;
+    border-radius: 10px;
+}
