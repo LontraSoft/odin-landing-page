@@ -75,7 +75,6 @@ header {
     width:auto;
 }
 
-
 .tagline {
     font-size: 3vw;
     font-weight: 900;
@@ -98,4 +97,37 @@ header {
     font-size: 1.25vw;
     font-weight: bold;
     border-radius: 10px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20%;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.feature-card {
+    width: 10vw;
+    height: 15vw;
+}
+
+.feature-card figcaption {
+    font-size: 1.25vw;
+    color: #666;
+}
+
+.feature-card img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    box-sizing: border-box;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+    padding: 3px;
 }
