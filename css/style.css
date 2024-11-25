@@ -193,3 +193,14 @@ main h2 {
     border: 3px solid #E5E7EB;
     border-radius: 10px;
 }
+
+footer {
+    background-color: #1F2937;
+    padding: 4vh 0;
+}
+
+.copyright {
+    color: #E5E7EB;
+    font-size: 1.25vw;
+    text-align: center;
+}
