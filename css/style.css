@@ -14,6 +14,11 @@ a {
     text-decoration: none;
 }
 
+h1, h2 {
+    margin: 0;
+    padding: 0;
+}
+
 figure {
     margin: 0;
 }
@@ -88,7 +93,7 @@ header {
     margin-top: 0.2em;
 }
 
-#try-button {
+.try-button {
     width: 10em;
     padding: 0.5em 2em;
     border: 0;
@@ -97,6 +102,7 @@ header {
     font-size: 1.25vw;
     font-weight: bold;
     border-radius: 10px;
+    box-sizing: border-box;
 }
 
 .features {
@@ -150,4 +156,40 @@ main h2 {
     font-weight: bold;
     color: #1F2937;
     text-align: end;
+}
+
+.call-to-action-section {
+    padding: 30px 22%;
+}
+
+.call-to-action-box {
+    background-color: #3882F6;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    align-content: center;
+}
+
+.call-to-action-box h2 {
+    color: #F9FAF8;
+    font-size: 1.5vw;
+}
+
+.call-to-action-message {
+    color: #E5E7EB;
+    font-size: 1.25vw;
+}
+
+.call-to-action-button-box {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.call-to-action-button-box .try-button{
+    margin-right: 2vw;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
 }
